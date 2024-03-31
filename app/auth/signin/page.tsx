@@ -9,11 +9,11 @@ import axios from "axios"
 // async component
 export default async function signin() {
 
-  const result = await getData();
+  // const result = await getData();
     return <div >
       {/* <SigninComponents /> */}
-          {result.email}
-          {result.name}
-
+          {/* {result.email}
+          {result.name} */}
+        signing
     </div>
 }
